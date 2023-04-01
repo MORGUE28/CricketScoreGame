@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Cricket Score Keeper</title>
+        <link rel="stylesheet" href="main.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Rajdhani&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <section>
+            <div class="overlay">
+
+                <div class="score_card">
+                    <h1><span id="pakpak"><span>PAKISTAN</span> : <span id="PAK_Score">0</span>/<span id="PAK_Wic">0</span></span> VS <span id="indiaindia"><span>INDIA</span>  : <span id="IND_Score">0</span>/<span id="IND_Wic">0</span> </span></h1>
+                <div class="matchstat">
+                    <h2 id="status">Match not yet started.</h2>
+                </div>
+                <div class="ballstat">
+                    <h2><span id="balls">Waiting</span><span id="text"> for Match to Begin</span></h2>
+                </div>
+                <div class="runs">
+                    <button id="dot">Dot</button>
+                    <button id="one">One</button>
+                    <button id="two">Two</button>
+                    <button id="three">Three</button>
+                </div>
+            <div class="bigruns">
+                <button id="six">Six!</button>
+                <button id="four">Four!</button>
+            </div>
+                <div class="out">
+                    <button id="wic">Wicket!</button>
+                </div>
+                <div class="startreset">
+                    <button id="start">Start Match</button>
+                </div>
+                <div class="run-dy">
+                    <marquee scrollamount="25">
+                        <label><h1><span id="runtext"></span><span id="runx"></span></h1></label>
+                    </marquee>
+                </div>
+            </div>
+        </section>
+
+
+        <!-- adding js -->
+        <script src="main.js"></script>
+    </body>
+</html>
